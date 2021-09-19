@@ -1,6 +1,6 @@
 package com.demo.ecommerce.service;
 
-import com.demo.ecommerce.Dish;
+import com.demo.ecommerce.domain.Dish;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 

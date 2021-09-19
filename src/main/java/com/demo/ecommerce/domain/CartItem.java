@@ -1,6 +1,5 @@
-package com.demo.ecommerce;
+package com.demo.ecommerce.domain;
 
-import com.demo.ecommerce.Item;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;

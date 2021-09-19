@@ -1,7 +1,6 @@
-package com.demo.ecommerce;
+package com.demo.ecommerce.domain;
 
 import lombok.Getter;
-import lombok.Setter;
 import lombok.ToString;
 
 @Getter

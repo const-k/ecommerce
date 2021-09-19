@@ -1,4 +1,4 @@
-package com.demo.ecommerce;
+package com.demo.ecommerce.domain;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

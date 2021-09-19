@@ -1,6 +1,6 @@
 package com.demo.ecommerce.controller;
 
-import com.demo.ecommerce.Dish;
+import com.demo.ecommerce.domain.Dish;
 import com.demo.ecommerce.service.KitchenService;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
