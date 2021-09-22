@@ -10,12 +10,12 @@ import org.springframework.stereotype.Component;
 public class TemplateDatabaseLoader {
 
     // test data loading
-    // MongoOperations = JdbcOperations와 같은 MongoTemplate에서 일부 추출한 인터페이스, 블로킹으로 동작
+    // MongoOperations = JdbcOperations 와 같은 MongoTemplate 에서 일부 추출한 인터페이스, 블로킹으로 동작
     @Bean
     CommandLineRunner initialize(MongoOperations mongo) {
         return args -> {
-            mongo.save(new Item("Alf alarm clock", 19.99));
-            mongo.save(new Item("Smurf TV tray", 24.99));
+            mongo.save(new Item("Alf alarm clock","kids clock", 19.99));
+            mongo.save(new Item("Smurf TV tray", "kids TV tray", 24.99));
         };
     }
 }
